@@ -70,6 +70,7 @@ body {
 	height: 100%; 
 	margin: 20;
 }
+	/* we use h1 as a text box in our code*/
 h1{
 	font-size: 25px;
 	font-family: 'Cairo', sans-serif;
@@ -92,6 +93,8 @@ h1{
 	max-height: 100%;
 	max-width: 100%;
 }
+
+/*it is at 414 pixels because that's the size of the phone our clients phone*/
 
 @media only screen and (max-width: 414px){
 	body{
